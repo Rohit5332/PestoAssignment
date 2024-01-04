@@ -21,10 +21,6 @@ public class RegisterStepDef extends BaseClass {
 	@Given("user is on Registration page")
 	public void user_is_on_registration_page() throws Exception {
 		navigateToHomePage();
-		// driver.get("https://www.amazon.in");
-//		Thread.sleep(9000);
-//		wait = new WebDriverWait(driver, null);
-//		wait.until(ExpectedConditions.elementToBeClickable(By.id("nav-link-accountList")));
 	}
 
 	@When("user select Hello Sign in")
